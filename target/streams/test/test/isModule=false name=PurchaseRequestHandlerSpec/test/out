@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0m[32mPurchaseRequestHandlerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA PurchaseRequestHandler Actor [0m[0m
+[0m[[0minfo[0m] [0m[32m- must send Booking confirmation msg [0m[0m
+[0m[[0minfo[0m] [0m[31m- must send total no of mobiles  *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.AssertionError: assertion failed: timeout (3 seconds) during expectMsg while waiting for 1[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.assert(Predef.scala:170)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg_internal(TestKit.scala:387)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKitBase$class.expectMsg(TestKit.scala:364)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at akka.testkit.TestKit.expectMsg(TestKit.scala:814)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at PurchaseRequestHandlerSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply$mcI$sp(PurchaseRequestHandlerSpec.scala:44)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at PurchaseRequestHandlerSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(PurchaseRequestHandlerSpec.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at PurchaseRequestHandlerSpec$$anonfun$1$$anonfun$apply$mcV$sp$3.apply(PurchaseRequestHandlerSpec.scala:38)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mPurchaseActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mA Sending Actor [0m[0m
+[0m[[0minfo[0m] [0m[32m- must send a message to another actor when it finished processing[0m[0m
+[0m[[0minfo[0m] [0m[32m- must send sorry msg when user make request more than 1 mobile at a time [0m[0m
