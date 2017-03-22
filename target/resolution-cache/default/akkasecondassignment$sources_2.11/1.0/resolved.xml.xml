@@ -4,7 +4,7 @@
 		module="akkasecondassignment$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20170321210119"
+		publication="20170322135544"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -20,6 +20,7 @@
 		<conf name="docs" visibility="public" description=""/>
 		<conf name="pom" visibility="public" description=""/>
 		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="scoveragePlugin" visibility="private" description=""/>
 	</configurations>
 	<publications>
 	</publications>

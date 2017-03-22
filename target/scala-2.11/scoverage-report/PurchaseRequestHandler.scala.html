@@ -1,0 +1,266 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          PurchaseRequestHandler.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>import akka.actor.{Actor, ActorLogging, Props}
+</span>2 <span style=''>
+</span>3 <span style=''>class PurchaseRequestHandler extends Actor with ActorLogging{
+</span>4 <span style=''>  var totalMobile = </span><span style='background: #AEF1AE'>1</span><span style=''>
+</span>5 <span style=''>  override def receive = {
+</span>6 <span style=''>    case totalMobiles:String =&gt; </span><span style='background: #AEF1AE'>sender ! totalMobile</span><span style=''>
+</span>7 <span style=''>
+</span>8 <span style=''>    case Booking  =&gt; </span><span style='background: #AEF1AE'>totalMobile -=1</span><span style=''>
+</span>9 <span style=''>      </span><span style='background: #AEF1AE'>log.info(&quot;your booking successfully done!!!!&quot;)</span><span style=''>
+</span>10 <span style=''>  }
+</span>11 <span style=''>}
+</span>12 <span style=''>
+</span>13 <span style=''>object PurchaseRequestHandler{
+</span>14 <span style=''>  def props  = </span><span style='background: #AEF1AE'>Props(classOf[PurchaseRequestHandler])</span><span style=''>
+</span>15 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          4
+        </td>
+        <td>
+          63
+        </td>
+        <td>
+          130
+          -
+          131
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          1
+        </td>
+      </tr><tr>
+        <td>
+          5
+        </td>
+        <td>
+          71
+        </td>
+        <td>
+          157
+          -
+          157
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          PurchaseRequestHandler.$anonfun.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new $anonfun()
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          65
+        </td>
+        <td>
+          200
+          -
+          211
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          PurchaseRequestHandler.totalMobile
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseRequestHandler.this.totalMobile
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          64
+        </td>
+        <td>
+          191
+          -
+          197
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Actor.sender
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseRequestHandler.this.sender()
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          67
+        </td>
+        <td>
+          191
+          -
+          211
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          akka.this.actor.`package`.actorRef2Scala(PurchaseRequestHandler.this.sender()).!(PurchaseRequestHandler.this.totalMobile)(PurchaseRequestHandler.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          66
+        </td>
+        <td>
+          198
+          -
+          198
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseRequestHandler.this.self
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          68
+        </td>
+        <td>
+          234
+          -
+          249
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.-
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseRequestHandler.this.totalMobile.-(1)
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          69
+        </td>
+        <td>
+          234
+          -
+          249
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          PurchaseRequestHandler.totalMobile_=
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseRequestHandler.this.totalMobile_=(PurchaseRequestHandler.this.totalMobile.-(1))
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          70
+        </td>
+        <td>
+          256
+          -
+          302
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #AEF1AE">
+          PurchaseRequestHandler.this.log.info(&quot;your booking successfully done!!!!&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          72
+        </td>
+        <td>
+          356
+          -
+          394
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Props.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.actor.Props.apply(classOf[PurchaseRequestHandler])
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

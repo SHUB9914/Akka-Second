@@ -6,8 +6,8 @@
 		module="akkasecondassignment$sources_2.11"
 		revision="1.0"
 		conf="plugin"
-		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20170321210119"/>
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoveragePlugin"
+		date="20170322135544"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

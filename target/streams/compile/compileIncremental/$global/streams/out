@@ -1,15 +1,80 @@
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
 [0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
-[0m[[0mdebug[0m] [0m[naha] 	added: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala)[0m
 [0m[[0mdebug[0m] [0m[naha] [0m
 [0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala, /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 4 sources: invalidated sources (4) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 4 Scala sources to /home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.11.8[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 13203b5f, interfacing (CompilerInterface) with Scala compiler version 2.11.8[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.3.0.jar[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/scoverage-data[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/classes:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.3.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.17.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.7.0.jar:/home/knoldus/.ivy2/cache/com.typesafe.akka/akka-testkit_2.11/jars/akka-testkit_2.11-2.4.17.jar:/home/knoldus/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scalactic/scalactic_2.11/bundles/scalactic_2.11-3.0.1.jar:/home/knoldus/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.8.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar[0m
+[0m[[0minfo[0m] [0m[info] Cleaning datadir [/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/scoverage-data][0m
+[0m[[0minfo[0m] [0m[info] Beginning coverage instrumentation[0m
+[0m[[0minfo[0m] [0m[info] Instrumentation completed [96 statements][0m
+[0m[[0minfo[0m] [0m[info] Wrote instrumentation file [/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/scoverage-data/scoverage.coverage.xml][0m
+[0m[[0minfo[0m] [0m[info] Will write measurement data to [/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/scoverage-data][0m
+[0m[[33mwarn[0m] [0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 6.552291714 s[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	self, context.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	user1, notify, creditCardNo, name, wait, copy$default$2, $asInstanceOf, mobiles, system, PurchaseActorRef, copy$default$5, productArity, equals, asInstanceOf, executionStart, mobileNo, synchronized, $isInstanceOf, ref, noOfMobile, canEqual, config, copy$default$4, main, productPrefix, Booking, notifyAll, isInstanceOf, <init>, user2, ==, clone, Customer, TotalMobile, $init$, copy$default$3, address, copy, toString, args, !=, ValidationActorRef, getClass, MobilePurchase, copy$default$1, ne, eq, productIterator, delayedInit, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala: Set(asInstanceOf, Booking, isInstanceOf, <init>)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala: Set(asInstanceOf, Booking, isInstanceOf, <init>, ==)[0m
+[0m[[0mdebug[0m] [0m[naha] The following modified names cause invalidation of /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala: Set(asInstanceOf, ref, noOfMobile, isInstanceOf, <init>, Customer)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	self, context.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidating (transitively) by inheritance from /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala...[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated by transitive inheritance dependency: Set(/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] The /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala source file has the following implicit definitions changed:[0m
+[0m[[0mdebug[0m] [0m[naha] 	self, context.[0m
+[0m[[0mdebug[0m] [0m[naha] All member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0m[naha] The following member ref dependencies of /home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala are invalidated:[0m
+[0m[[0mdebug[0m] [0m[naha] 	/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala[0m
+[0m[[0mdebug[0m] [0m[naha] New invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Previously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m[naha] 	Set()[0m
+[0m[[0mdebug[0m] [0m[naha] All newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
