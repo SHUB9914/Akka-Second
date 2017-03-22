@@ -14,13 +14,9 @@ class ValidationActor(PurchaseRequestRef : ActorRef) extends Actor with ActorLog
     case validate:String =>
       implicit val timeout = Timeout(1000 seconds)
       val totalmobile: Future[Int] = (PurchaseRequestRef ? "give me totalMobiles").mapTo[Int]
-      //println(">>>>>>>>>>>>>>>>>>>>>>>>>"+totalmobile)
       number= Await.result(totalmobile,1.second)
       log.info("number of Mobiles="+number)
       if(number > 0) PurchaseRequestRef ! Booking else log.info("sorry no mobile available")
 
   }
-}
-object ValidationActor{
-  def props(ref:ActorRef) = Props(classOf[ValidationActor], ref)
 }

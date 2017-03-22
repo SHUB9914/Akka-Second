@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.94" lines-valid="47" lines-covered="44" branches-valid="4" branches-covered="3" branch-rate="0.75" complexity="0" version="1.0" timestamp="1490185275293">
+line-rate="1.00" lines-valid="46" lines-covered="46" branches-valid="4" branches-covered="4" branch-rate="1.00" complexity="0" version="1.0" timestamp="1490186480199">
     <sources>
         <source>--source</source>
         <source>/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala-2.11</source>
@@ -9,10 +9,10 @@ line-rate="0.94" lines-valid="47" lines-covered="44" branches-valid="4" branches
         <source>/home/knoldus/Downloads/AkkaSecondAssignment/src/main/java</source>
     </sources>
     <packages>
-        <package name="com.knoldus" line-rate="0.94" branch-rate="0.75" complexity="0">
+        <package name="com.knoldus" line-rate="1.00" branch-rate="1.00" complexity="0">
             <classes>
                 <class 
-                name="com.knoldus.ValidationActor" filename="com/knoldus/ValidationActor.scala" line-rate="0.88" branch-rate="0.50" complexity="0">
+                name="com.knoldus.ValidationActor" filename="com/knoldus/ValidationActor.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
                     <methods>
                         <method 
                         name="com.knoldus/ValidationActor/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
@@ -20,65 +20,59 @@ line-rate="0.94" lines-valid="47" lines-covered="44" branches-valid="4" branches
                                 <line number="11" hits="1" branch="false"/>
                             </lines>
 </method>
-                        <method name="com.knoldus/ValidationActor/receive" signature="()V" line-rate="0.91" branch-rate="0.50" complexity="0">
+                        <method name="com.knoldus/ValidationActor/receive" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
                             <lines>
-                                <line number="18" hits="1" branch="false"/>
-                                <line number="20" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
                                 <line number="19" hits="1" branch="false"/>
-                                <line number="20" hits="0" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
                                 <line number="15" hits="1" branch="false"/>
                                 <line number="16" hits="1" branch="false"/>
-                                <line number="19" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
                                 <line number="12" hits="1" branch="false"/>
-                                <line number="20" hits="1" branch="false"/>
-                                <line number="18" hits="1" branch="false"/>
-                                <line number="20" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
                                 <line number="15" hits="1" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
                                 <line number="18" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
                                 <line number="19" hits="1" branch="false"/>
                                 <line number="16" hits="1" branch="false"/>
-                                <line number="20" hits="0" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
                                 <line number="16" hits="1" branch="false"/>
                                 <line number="19" hits="1" branch="false"/>
-                                <line number="16" hits="1" branch="false"/>
-                                <line number="20" hits="1" branch="false"/>
-                                <line number="20" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
                                 <line number="15" hits="1" branch="false"/>
-                                <line number="18" hits="1" branch="false"/>
-                            </lines>
-                        </method>
-                        <method name="com.knoldus/ValidationActor/props" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
-                            <lines>
-                                <line number="25" hits="0" branch="false"/>
+                                <line number="17" hits="1" branch="false"/>
                             </lines>
                         </method>
                     </methods>
                     <lines>
                         <line number="11" hits="1" branch="false"/>
-                        <line number="18" hits="1" branch="false"/>
-                        <line number="20" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
                         <line number="19" hits="1" branch="false"/>
-                        <line number="20" hits="0" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
                         <line number="15" hits="1" branch="false"/>
                         <line number="16" hits="1" branch="false"/>
-                        <line number="19" hits="1" branch="false"/>
-                        <line number="25" hits="0" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
                         <line number="12" hits="1" branch="false"/>
-                        <line number="20" hits="1" branch="false"/>
-                        <line number="18" hits="1" branch="false"/>
-                        <line number="20" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
                         <line number="15" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
                         <line number="18" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
                         <line number="19" hits="1" branch="false"/>
                         <line number="16" hits="1" branch="false"/>
-                        <line number="20" hits="0" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
                         <line number="16" hits="1" branch="false"/>
                         <line number="19" hits="1" branch="false"/>
-                        <line number="16" hits="1" branch="false"/>
-                        <line number="20" hits="1" branch="false"/>
-                        <line number="20" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
                         <line number="15" hits="1" branch="false"/>
-                        <line number="18" hits="1" branch="false"/>
+                        <line number="17" hits="1" branch="false"/>
                     </lines>
 </class>
                 <class 

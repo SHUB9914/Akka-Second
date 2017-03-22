@@ -38,16 +38,15 @@
 </span>14 <span style=''>    case validate:String =&gt;
 </span>15 <span style=''>      implicit val timeout = </span><span style='background: #AEF1AE'>Timeout(1000 seconds)</span><span style=''>
 </span>16 <span style=''>      val totalmobile: Future[Int] = (</span><span style='background: #AEF1AE'>PurchaseRequestRef ? &quot;give me totalMobiles&quot;).mapTo[Int]</span><span style=''>
-</span>17 <span style=''>      //println(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;+totalmobile)
-</span>18 <span style=''>      </span><span style='background: #AEF1AE'>number= Await.result(totalmobile,1.second)</span><span style=''>
-</span>19 <span style=''>      </span><span style='background: #AEF1AE'>log.info(&quot;number of Mobiles=&quot;+number)</span><span style=''>
-</span>20 <span style=''>      if(</span><span style='background: #AEF1AE'>number &gt; 0</span><span style=''>) </span><span style='background: #AEF1AE'>PurchaseRequestRef ! Booking</span><span style=''> else </span><span style='background: #F0ADAD'>log.info(&quot;sorry no mobile available&quot;)</span><span style=''>
-</span>21 <span style=''>
-</span>22 <span style=''>  }
-</span>23 <span style=''>}
-</span>24 <span style=''>object ValidationActor{
-</span>25 <span style=''>  def props(ref:ActorRef) = </span><span style='background: #F0ADAD'>Props(classOf[ValidationActor], ref)</span><span style=''>
-</span>26 <span style=''>}
+</span>17 <span style=''>      </span><span style='background: #AEF1AE'>number= Await.result(totalmobile,1.second)</span><span style=''>
+</span>18 <span style=''>      </span><span style='background: #AEF1AE'>log.info(&quot;number of Mobiles=&quot;+number)</span><span style=''>
+</span>19 <span style=''>      if(</span><span style='background: #AEF1AE'>number &gt; 0</span><span style=''>) </span><span style='background: #AEF1AE'>PurchaseRequestRef ! Booking</span><span style=''> else </span><span style='background: #AEF1AE'>log.info(&quot;sorry no mobile available&quot;)</span><span style=''>
+</span>20 <span style=''>
+</span>21 <span style=''>  }
+</span>22 <span style=''>}
+</span>23 <span style=''>//object ValidationActor{
+</span>24 <span style=''>//  def props(ref:ActorRef) = Props(classOf[ValidationActor], ref)
+</span>25 <span style=''>//}
 </span></pre>
           </div>
           <div class="tab-pane" id="statementlist">
@@ -250,15 +249,15 @@
         </td>
       </tr><tr>
         <td>
-          18
+          17
         </td>
         <td>
           32
         </td>
         <td>
-          615
+          558
           -
-          623
+          566
         </td>
         <td>
           Select
@@ -271,15 +270,15 @@
         </td>
       </tr><tr>
         <td>
-          18
+          17
         </td>
         <td>
           31
         </td>
         <td>
-          615
+          558
           -
-          616
+          559
         </td>
         <td>
           Literal
@@ -292,15 +291,15 @@
         </td>
       </tr><tr>
         <td>
-          18
+          17
         </td>
         <td>
           34
         </td>
         <td>
-          582
+          525
           -
-          624
+          567
         </td>
         <td>
           Apply
@@ -313,15 +312,15 @@
         </td>
       </tr><tr>
         <td>
-          18
+          17
         </td>
         <td>
           33
         </td>
         <td>
-          590
+          533
           -
-          624
+          567
         </td>
         <td>
           Apply
@@ -334,15 +333,15 @@
         </td>
       </tr><tr>
         <td>
-          19
+          18
         </td>
         <td>
           35
         </td>
         <td>
-          640
+          583
           -
-          660
+          603
         </td>
         <td>
           Literal
@@ -355,15 +354,15 @@
         </td>
       </tr><tr>
         <td>
-          19
+          18
         </td>
         <td>
           38
         </td>
         <td>
-          631
+          574
           -
-          668
+          611
         </td>
         <td>
           Apply
@@ -376,15 +375,15 @@
         </td>
       </tr><tr>
         <td>
-          19
+          18
         </td>
         <td>
           37
         </td>
         <td>
-          640
+          583
           -
-          667
+          610
         </td>
         <td>
           Apply
@@ -397,15 +396,15 @@
         </td>
       </tr><tr>
         <td>
-          19
+          18
         </td>
         <td>
           36
         </td>
         <td>
-          661
+          604
           -
-          667
+          610
         </td>
         <td>
           Select
@@ -418,15 +417,15 @@
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           41
         </td>
         <td>
-          709
+          652
           -
-          709
+          652
         </td>
         <td>
           Select
@@ -439,15 +438,15 @@
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           44
         </td>
         <td>
-          724
+          667
           -
-          761
+          704
         </td>
         <td>
           Apply
@@ -455,20 +454,20 @@
         <td>
           akka.event.LoggingAdapter.info
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           ValidationActor.this.log.info(&quot;sorry no mobile available&quot;)
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           40
         </td>
         <td>
-          690
+          633
           -
-          708
+          651
         </td>
         <td>
           Select
@@ -481,15 +480,15 @@
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           43
         </td>
         <td>
-          690
+          633
           -
-          718
+          661
         </td>
         <td>
           Block
@@ -502,15 +501,15 @@
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           45
         </td>
         <td>
-          724
+          667
           -
-          761
+          704
         </td>
         <td>
           Block
@@ -518,20 +517,20 @@
         <td>
           akka.event.LoggingAdapter.info
         </td>
-        <td style="background: #F0ADAD">
+        <td style="background: #AEF1AE">
           ValidationActor.this.log.info(&quot;sorry no mobile available&quot;)
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           39
         </td>
         <td>
-          678
+          621
           -
-          688
+          631
         </td>
         <td>
           Apply
@@ -544,15 +543,15 @@
         </td>
       </tr><tr>
         <td>
-          20
+          19
         </td>
         <td>
           42
         </td>
         <td>
-          690
+          633
           -
-          718
+          661
         </td>
         <td>
           ApplyToImplicitArgs
@@ -562,27 +561,6 @@
         </td>
         <td style="background: #AEF1AE">
           akka.this.actor.`package`.actorRef2Scala(ValidationActor.this.PurchaseRequestRef).!(Booking)(ValidationActor.this.self)
-        </td>
-      </tr><tr>
-        <td>
-          25
-        </td>
-        <td>
-          47
-        </td>
-        <td>
-          821
-          -
-          857
-        </td>
-        <td>
-          Apply
-        </td>
-        <td>
-          akka.actor.Props.apply
-        </td>
-        <td style="background: #F0ADAD">
-          akka.actor.Props.apply(classOf[com.knoldus.ValidationActor], ref)
         </td>
       </tr>
     </table>

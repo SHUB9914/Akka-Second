@@ -1,10 +1,10 @@
 <scoverage 
-statement-count="47" statements-invoked="44" statement-rate="93.62" branch-rate="75.00" version="1.0" timestamp="1490185275396">
+statement-count="46" statements-invoked="46" statement-rate="100.00" branch-rate="100.00" version="1.0" timestamp="1490186480269">
     <packages>
-        <package name="com.knoldus" statement-count="47" statements-invoked="44" statement-rate="93.62">
+        <package name="com.knoldus" statement-count="46" statements-invoked="46" statement-rate="100.00">
             <classes>
                 <class 
-                name="com.knoldus.ValidationActor" filename="com/knoldus/ValidationActor.scala" statement-count="25" statements-invoked="22" statement-rate="88.00" branch-rate="50.00">
+                name="com.knoldus.ValidationActor" filename="com/knoldus/ValidationActor.scala" statement-count="24" statements-invoked="24" statement-rate="100.00" branch-rate="100.00">
                     <methods>
                         <method 
                         name="com.knoldus/ValidationActor/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
@@ -15,19 +15,19 @@ statement-count="47" statements-invoked="44" statement-rate="93.62" branch-rate=
                             </statements>
 </method>
                         <method 
-                        name="com.knoldus/ValidationActor/receive" statement-count="23" statements-invoked="21" statement-rate="91.30" branch-rate="50.00">
+                        name="com.knoldus/ValidationActor/receive" statement-count="23" statements-invoked="23" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="615" end="623" line="18" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="558" end="566" line="17" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="709" end="709" line="20" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="652" end="652" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="640" end="660" line="19" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="583" end="603" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="724" end="761" line="20" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="667" end="704" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="403" end="424" line="15" branch="false" invocation-count="1" ignored="false">
@@ -36,63 +36,55 @@ statement-count="47" statements-invoked="44" statement-rate="93.62" branch-rate=
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="482" end="482" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="631" end="668" line="19" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="574" end="611" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="343" end="343" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="690" end="708" line="20" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="633" end="651" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="615" end="616" line="18" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="558" end="559" line="17" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="690" end="718" line="20" branch="true" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="633" end="661" line="19" branch="true" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="411" end="423" line="15" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="582" end="624" line="18" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="525" end="567" line="17" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="640" end="667" line="19" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="583" end="610" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="484" end="506" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="724" end="761" line="20" branch="true" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="667" end="704" line="19" branch="true" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="463" end="481" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="661" end="667" line="19" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="604" end="610" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="463" end="518" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="678" end="688" line="20" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="621" end="631" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="690" end="718" line="20" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="633" end="661" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
                                 package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="411" end="415" line="15" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="590" end="624" line="18" branch="false" invocation-count="1" ignored="false">
-</statement>
-                            </statements>
-</method>
-                        <method 
-                        name="com.knoldus/ValidationActor/props" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
-                            <statements>
-                                <statement 
-                                package="com.knoldus" class="ValidationActor" class-type="Object" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="props" start="821" end="857" line="25" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="533" end="567" line="17" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
