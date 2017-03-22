@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 <coverage 
-line-rate="0.23" lines-valid="96" lines-covered="22" branches-valid="4" branches-covered="2" branch-rate="0.50" complexity="0" version="1.0" timestamp="1490165866848">
+line-rate="0.94" lines-valid="47" lines-covered="44" branches-valid="4" branches-covered="3" branch-rate="0.75" complexity="0" version="1.0" timestamp="1490185275293">
     <sources>
         <source>--source</source>
         <source>/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala-2.11</source>
@@ -9,263 +9,159 @@ line-rate="0.23" lines-valid="96" lines-covered="22" branches-valid="4" branches
         <source>/home/knoldus/Downloads/AkkaSecondAssignment/src/main/java</source>
     </sources>
     <packages>
-        <package name="&lt;empty&gt;" line-rate="0.23" branch-rate="0.50" complexity="0">
+        <package name="com.knoldus" line-rate="0.94" branch-rate="0.75" complexity="0">
             <classes>
                 <class 
-                name="PurchaseRequestHandler" filename="PurchaseRequestHandler.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                name="com.knoldus.ValidationActor" filename="com/knoldus/ValidationActor.scala" line-rate="0.88" branch-rate="0.50" complexity="0">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/PurchaseRequestHandler/receive" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                        name="com.knoldus/ValidationActor/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
                             <lines>
-                                <line number="8" hits="1" branch="false"/>
-                                <line number="5" hits="1" branch="false"/>
-                                <line number="6" hits="1" branch="false"/>
-                                <line number="6" hits="1" branch="false"/>
-                                <line number="6" hits="1" branch="false"/>
-                                <line number="9" hits="1" branch="false"/>
-                                <line number="8" hits="1" branch="false"/>
-                                <line number="6" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
                             </lines>
 </method>
-                        <method 
-                        name="&lt;empty&gt;/PurchaseRequestHandler/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                        <method name="com.knoldus/ValidationActor/receive" signature="()V" line-rate="0.91" branch-rate="0.50" complexity="0">
                             <lines>
-                                <line number="4" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="20" hits="0" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="20" hits="0" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="20" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                                <line number="18" hits="1" branch="false"/>
                             </lines>
-</method>
-                        <method 
-                        name="&lt;empty&gt;/PurchaseRequestHandler/props" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                        </method>
+                        <method name="com.knoldus/ValidationActor/props" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
                             <lines>
-                                <line number="14" hits="1" branch="false"/>
+                                <line number="25" hits="0" branch="false"/>
                             </lines>
-</method>
+                        </method>
                     </methods>
                     <lines>
-                        <line number="8" hits="1" branch="false"/>
-                        <line number="5" hits="1" branch="false"/>
-                        <line number="6" hits="1" branch="false"/>
-                        <line number="6" hits="1" branch="false"/>
-                        <line number="6" hits="1" branch="false"/>
-                        <line number="9" hits="1" branch="false"/>
-                        <line number="8" hits="1" branch="false"/>
-                        <line number="4" hits="1" branch="false"/>
-                        <line number="14" hits="1" branch="false"/>
-                        <line number="6" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="20" hits="0" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="25" hits="0" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="20" hits="0" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="20" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="18" hits="1" branch="false"/>
                     </lines>
 </class>
-                <class name="PurchaseActor" filename="PurchaseActor.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                <class 
+                name="com.knoldus.PurchaseRequestHandler" filename="com/knoldus/PurchaseRequestHandler.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
                     <methods>
-                        <method name="&lt;empty&gt;/PurchaseActor/props" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                        <method 
+                        name="com.knoldus/PurchaseRequestHandler/props" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
                             <lines>
-                                <line number="17" hits="1" branch="false"/>
+                                <line number="16" hits="1" branch="false"/>
                             </lines>
-                        </method>
-                        <method name="&lt;empty&gt;/PurchaseActor/receive" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+</method>
+                        <method 
+                        name="com.knoldus/PurchaseRequestHandler/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
                             <lines>
-                                <line number="11" hits="1" branch="false"/>
-                                <line number="7" hits="1" branch="false"/>
-                                <line number="11" hits="1" branch="false"/>
-                                <line number="10" hits="1" branch="false"/>
-                                <line number="11" hits="1" branch="false"/>
-                                <line number="7" hits="1" branch="false"/>
-                                <line number="4" hits="1" branch="false"/>
-                                <line number="9" hits="1" branch="false"/>
-                                <line number="10" hits="1" branch="false"/>
-                                <line number="11" hits="1" branch="false"/>
                                 <line number="6" hits="1" branch="false"/>
                             </lines>
+</method>
+                        <method 
+                        name="com.knoldus/PurchaseRequestHandler/receive" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                            </lines>
+</method>
+                    </methods>
+                    <lines>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="16" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                    </lines>
+</class>
+                <class 
+                name="com.knoldus.PurchaseActor" filename="com/knoldus/PurchaseActor.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.knoldus/PurchaseActor/props" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="19" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.knoldus/PurchaseActor/receive" signature="()V" line-rate="1.00" branch-rate="1.00" complexity="0">
+                            <lines>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="12" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="11" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="13" hits="1" branch="false"/>
+                            </lines>
                         </method>
                     </methods>
                     <lines>
-                        <line number="11" hits="1" branch="false"/>
-                        <line number="17" hits="1" branch="false"/>
-                        <line number="7" hits="1" branch="false"/>
-                        <line number="11" hits="1" branch="false"/>
-                        <line number="10" hits="1" branch="false"/>
-                        <line number="11" hits="1" branch="false"/>
-                        <line number="7" hits="1" branch="false"/>
-                        <line number="4" hits="1" branch="false"/>
-                        <line number="9" hits="1" branch="false"/>
-                        <line number="10" hits="1" branch="false"/>
-                        <line number="11" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
                         <line number="6" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="12" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="11" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="13" hits="1" branch="false"/>
                     </lines>
-                </class>
-                <class name="ValidationActor" filename="ValidationActor.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
-                    <methods>
-                        <method 
-                        name="&lt;empty&gt;/ValidationActor/receive" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
-                            <lines>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="16" hits="0" branch="false"/>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="17" hits="0" branch="false"/>
-                                <line number="15" hits="0" branch="false"/>
-                                <line number="15" hits="0" branch="false"/>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="14" hits="0" branch="false"/>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="16" hits="0" branch="false"/>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="17" hits="0" branch="false"/>
-                                <line number="14" hits="0" branch="false"/>
-                                <line number="15" hits="0" branch="false"/>
-                                <line number="17" hits="0" branch="false"/>
-                                <line number="17" hits="0" branch="false"/>
-                                <line number="11" hits="0" branch="false"/>
-                                <line number="15" hits="0" branch="false"/>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="16" hits="0" branch="false"/>
-                                <line number="16" hits="0" branch="false"/>
-                                <line number="18" hits="0" branch="false"/>
-                                <line number="14" hits="0" branch="false"/>
-                            </lines>
-</method>
-                        <method 
-                        name="&lt;empty&gt;/ValidationActor/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
-                            <lines>
-                                <line number="10" hits="0" branch="false"/>
-                            </lines>
-</method>
-                    </methods>
-                    <lines>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="16" hits="0" branch="false"/>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="17" hits="0" branch="false"/>
-                        <line number="15" hits="0" branch="false"/>
-                        <line number="15" hits="0" branch="false"/>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="14" hits="0" branch="false"/>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="16" hits="0" branch="false"/>
-                        <line number="10" hits="0" branch="false"/>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="17" hits="0" branch="false"/>
-                        <line number="14" hits="0" branch="false"/>
-                        <line number="15" hits="0" branch="false"/>
-                        <line number="17" hits="0" branch="false"/>
-                        <line number="17" hits="0" branch="false"/>
-                        <line number="11" hits="0" branch="false"/>
-                        <line number="15" hits="0" branch="false"/>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="16" hits="0" branch="false"/>
-                        <line number="16" hits="0" branch="false"/>
-                        <line number="18" hits="0" branch="false"/>
-                        <line number="14" hits="0" branch="false"/>
-                    </lines>
-                </class>
-                <class name="MobilePurchase" filename="MobilePurchase.scala" line-rate="0.00" branch-rate="0.00" complexity="0">
-                    <methods>
-                        <method 
-                        name="&lt;empty&gt;/MobilePurchase/&lt;none&gt;" signature="()V" line-rate="0.00" branch-rate="0.00" complexity="0">
-                            <lines>
-                                <line number="29" hits="0" branch="false"/>
-                                <line number="35" hits="0" branch="false"/>
-                                <line number="32" hits="0" branch="false"/>
-                                <line number="34" hits="0" branch="false"/>
-                                <line number="34" hits="0" branch="false"/>
-                                <line number="32" hits="0" branch="false"/>
-                                <line number="25" hits="0" branch="false"/>
-                                <line number="27" hits="0" branch="false"/>
-                                <line number="30" hits="0" branch="false"/>
-                                <line number="26" hits="0" branch="false"/>
-                                <line number="30" hits="0" branch="false"/>
-                                <line number="33" hits="0" branch="false"/>
-                                <line number="35" hits="0" branch="false"/>
-                                <line number="29" hits="0" branch="false"/>
-                                <line number="22" hits="0" branch="false"/>
-                                <line number="24" hits="0" branch="false"/>
-                                <line number="27" hits="0" branch="false"/>
-                                <line number="35" hits="0" branch="false"/>
-                                <line number="33" hits="0" branch="false"/>
-                                <line number="35" hits="0" branch="false"/>
-                                <line number="24" hits="0" branch="false"/>
-                                <line number="27" hits="0" branch="false"/>
-                                <line number="29" hits="0" branch="false"/>
-                                <line number="32" hits="0" branch="false"/>
-                                <line number="27" hits="0" branch="false"/>
-                                <line number="25" hits="0" branch="false"/>
-                                <line number="34" hits="0" branch="false"/>
-                                <line number="30" hits="0" branch="false"/>
-                                <line number="32" hits="0" branch="false"/>
-                                <line number="26" hits="0" branch="false"/>
-                                <line number="33" hits="0" branch="false"/>
-                                <line number="15" hits="0" branch="false"/>
-                                <line number="30" hits="0" branch="false"/>
-                                <line number="29" hits="0" branch="false"/>
-                                <line number="34" hits="0" branch="false"/>
-                                <line number="33" hits="0" branch="false"/>
-                                <line number="30" hits="0" branch="false"/>
-                                <line number="26" hits="0" branch="false"/>
-                                <line number="27" hits="0" branch="false"/>
-                                <line number="35" hits="0" branch="false"/>
-                                <line number="29" hits="0" branch="false"/>
-                                <line number="26" hits="0" branch="false"/>
-                                <line number="14" hits="0" branch="false"/>
-                                <line number="30" hits="0" branch="false"/>
-                                <line number="33" hits="0" branch="false"/>
-                                <line number="27" hits="0" branch="false"/>
-                                <line number="34" hits="0" branch="false"/>
-                                <line number="32" hits="0" branch="false"/>
-                                <line number="24" hits="0" branch="false"/>
-                                <line number="29" hits="0" branch="false"/>
-                            </lines>
-</method>
-                    </methods>
-                    <lines>
-                        <line number="29" hits="0" branch="false"/>
-                        <line number="35" hits="0" branch="false"/>
-                        <line number="32" hits="0" branch="false"/>
-                        <line number="34" hits="0" branch="false"/>
-                        <line number="34" hits="0" branch="false"/>
-                        <line number="32" hits="0" branch="false"/>
-                        <line number="25" hits="0" branch="false"/>
-                        <line number="27" hits="0" branch="false"/>
-                        <line number="30" hits="0" branch="false"/>
-                        <line number="26" hits="0" branch="false"/>
-                        <line number="30" hits="0" branch="false"/>
-                        <line number="33" hits="0" branch="false"/>
-                        <line number="35" hits="0" branch="false"/>
-                        <line number="29" hits="0" branch="false"/>
-                        <line number="22" hits="0" branch="false"/>
-                        <line number="24" hits="0" branch="false"/>
-                        <line number="27" hits="0" branch="false"/>
-                        <line number="35" hits="0" branch="false"/>
-                        <line number="33" hits="0" branch="false"/>
-                        <line number="35" hits="0" branch="false"/>
-                        <line number="24" hits="0" branch="false"/>
-                        <line number="27" hits="0" branch="false"/>
-                        <line number="29" hits="0" branch="false"/>
-                        <line number="32" hits="0" branch="false"/>
-                        <line number="27" hits="0" branch="false"/>
-                        <line number="25" hits="0" branch="false"/>
-                        <line number="34" hits="0" branch="false"/>
-                        <line number="30" hits="0" branch="false"/>
-                        <line number="32" hits="0" branch="false"/>
-                        <line number="26" hits="0" branch="false"/>
-                        <line number="33" hits="0" branch="false"/>
-                        <line number="15" hits="0" branch="false"/>
-                        <line number="30" hits="0" branch="false"/>
-                        <line number="29" hits="0" branch="false"/>
-                        <line number="34" hits="0" branch="false"/>
-                        <line number="33" hits="0" branch="false"/>
-                        <line number="30" hits="0" branch="false"/>
-                        <line number="26" hits="0" branch="false"/>
-                        <line number="27" hits="0" branch="false"/>
-                        <line number="35" hits="0" branch="false"/>
-                        <line number="29" hits="0" branch="false"/>
-                        <line number="26" hits="0" branch="false"/>
-                        <line number="14" hits="0" branch="false"/>
-                        <line number="30" hits="0" branch="false"/>
-                        <line number="33" hits="0" branch="false"/>
-                        <line number="27" hits="0" branch="false"/>
-                        <line number="34" hits="0" branch="false"/>
-                        <line number="32" hits="0" branch="false"/>
-                        <line number="24" hits="0" branch="false"/>
-                        <line number="29" hits="0" branch="false"/>
-                    </lines>
-                </class>
+</class>
             </classes>
         </package>
     </packages>

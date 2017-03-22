@@ -1,10 +1,12 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(PurchaseRequestHandlerSpec, org.scalatest.tools.Framework$$anon$1@358a6736, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(PurchaseActorSpec, org.scalatest.tools.Framework$$anon$1@358a6736, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 894 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PurchaseRequestHandlerSpec, org.scalatest.tools.Framework$$anon$1@52a9804d, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(ValidationActorSpec, org.scalatest.tools.Framework$$anon$1@52a9804d, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(PurchaseActorSpec, org.scalatest.tools.Framework$$anon$1@52a9804d, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 1 second, 56 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 5[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 3, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
 [0m[[0mdebug[0m] [0mPassed tests:[0m
 [0m[[0mdebug[0m] [0m	PurchaseRequestHandlerSpec[0m
 [0m[[0mdebug[0m] [0m	PurchaseActorSpec[0m
+[0m[[0mdebug[0m] [0m	ValidationActorSpec[0m

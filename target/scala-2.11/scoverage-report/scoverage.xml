@@ -1,351 +1,199 @@
 <scoverage 
-statement-count="96" statements-invoked="22" statement-rate="22.92" branch-rate="50.00" version="1.0" timestamp="1490165866915">
+statement-count="47" statements-invoked="44" statement-rate="93.62" branch-rate="75.00" version="1.0" timestamp="1490185275396">
     <packages>
-        <package name="&lt;empty&gt;" statement-count="96" statements-invoked="22" statement-rate="22.92">
+        <package name="com.knoldus" statement-count="47" statements-invoked="44" statement-rate="93.62">
             <classes>
                 <class 
-                name="PurchaseRequestHandler" filename="PurchaseRequestHandler.scala" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
+                name="com.knoldus.ValidationActor" filename="com/knoldus/ValidationActor.scala" statement-count="25" statements-invoked="22" statement-rate="88.00" branch-rate="50.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/PurchaseRequestHandler/receive" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knoldus/ValidationActor/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="234" end="249" line="8" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="157" end="157" line="5" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="200" end="211" line="6" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="191" end="197" line="6" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="191" end="211" line="6" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="256" end="302" line="9" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="234" end="249" line="8" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="receive" start="198" end="198" line="6" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="&lt;none&gt;" start="316" end="317" line="11" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/PurchaseRequestHandler/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knoldus/ValidationActor/receive" statement-count="23" statements-invoked="21" statement-rate="91.30" branch-rate="50.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Class" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="&lt;none&gt;" start="130" end="131" line="4" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="615" end="623" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="709" end="709" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="640" end="660" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="724" end="761" line="20" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="403" end="424" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="482" end="482" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="631" end="668" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="343" end="343" line="12" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="690" end="708" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="615" end="616" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="690" end="718" line="20" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="411" end="423" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="582" end="624" line="18" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="640" end="667" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="484" end="506" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="724" end="761" line="20" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="463" end="481" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="661" end="667" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="463" end="518" line="16" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="678" end="688" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="690" end="718" line="20" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="411" end="415" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.knoldus" class="ValidationActor" class-type="Class" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="receive" start="590" end="624" line="18" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/PurchaseRequestHandler/props" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knoldus/ValidationActor/props" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseRequestHandler" class-type="Object" full-class-name="PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseRequestHandler.scala" method="props" start="356" end="394" line="14" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="ValidationActor" class-type="Object" full-class-name="com.knoldus.ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/ValidationActor.scala" method="props" start="821" end="857" line="25" branch="false" invocation-count="0" ignored="false">
 </statement>
                             </statements>
 </method>
                     </methods>
 </class>
                 <class 
-                name="PurchaseActor" filename="PurchaseActor.scala" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
+                name="com.knoldus.PurchaseRequestHandler" filename="com/knoldus/PurchaseRequestHandler.scala" statement-count="10" statements-invoked="10" statement-rate="100.00" branch-rate="100.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/PurchaseActor/props" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knoldus/PurchaseRequestHandler/props" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Object" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="props" start="484" end="518" line="17" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Object" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="props" start="377" end="415" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/PurchaseActor/receive" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
+                        name="com.knoldus/PurchaseRequestHandler/&lt;none&gt;" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="387" end="418" line="11" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="&lt;none&gt;" start="151" end="152" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knoldus/PurchaseRequestHandler/receive" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="212" end="232" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="233" end="293" line="7" branch="true" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="277" end="323" line="11" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="387" end="405" line="11" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="212" end="218" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="317" end="380" line="10" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="219" end="219" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="406" end="406" line="11" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="255" end="270" line="10" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="233" end="293" line="7" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="255" end="270" line="10" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="166" end="166" line="4" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="178" end="178" line="7" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="309" end="424" line="9" branch="true" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="326" end="379" line="10" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="408" end="418" line="11" branch="false" invocation-count="1" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="PurchaseActor" class-type="Class" full-class-name="PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/PurchaseActor.scala" method="receive" start="201" end="224" line="6" branch="false" invocation-count="1" ignored="false">
+                                package="com.knoldus" class="PurchaseRequestHandler" class-type="Class" full-class-name="com.knoldus.PurchaseRequestHandler" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseRequestHandler.scala" method="receive" start="221" end="232" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                     </methods>
 </class>
                 <class 
-                name="ValidationActor" filename="ValidationActor.scala" statement-count="24" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                name="com.knoldus.PurchaseActor" filename="com/knoldus/PurchaseActor.scala" statement-count="12" statements-invoked="12" statement-rate="100.00" branch-rate="100.00">
                     <methods>
                         <method 
-                        name="&lt;empty&gt;/ValidationActor/receive" statement-count="23" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="com.knoldus/PurchaseActor/props" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="606" end="634" line="18" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="506" end="540" line="16" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="640" end="677" line="18" branch="true" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="577" end="583" line="17" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="436" end="454" line="15" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="436" end="491" line="15" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="594" end="604" line="18" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="384" end="388" line="14" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="625" end="625" line="18" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="531" end="539" line="16" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="640" end="677" line="18" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="556" end="576" line="17" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="376" end="397" line="14" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="455" end="455" line="15" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="547" end="584" line="17" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="556" end="583" line="17" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="316" end="316" line="11" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="457" end="479" line="15" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="606" end="624" line="18" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="531" end="532" line="16" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="498" end="540" line="16" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="606" end="634" line="18" branch="true" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="receive" start="384" end="396" line="14" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Object" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="props" start="505" end="539" line="19" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
                         <method 
-                        name="&lt;empty&gt;/ValidationActor/&lt;none&gt;" statement-count="1" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                        name="com.knoldus/PurchaseActor/receive" statement-count="11" statements-invoked="11" statement-rate="100.00" branch-rate="100.00">
                             <statements>
                                 <statement 
-                                package="&lt;empty&gt;" class="ValidationActor" class-type="Class" full-class-name="ValidationActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/ValidationActor.scala" method="&lt;none&gt;" start="289" end="290" line="10" branch="false" invocation-count="0" ignored="false">
-</statement>
-                            </statements>
-</method>
-                    </methods>
-</class>
-                <class 
-                name="MobilePurchase" filename="MobilePurchase.scala" statement-count="50" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
-                    <methods>
-                        <method 
-                        name="&lt;empty&gt;/MobilePurchase/&lt;none&gt;" statement-count="50" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
-                            <statements>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="895" end="896" line="29" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="427" end="427" line="13" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="1009" end="1020" line="35" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="187" end="187" line="6" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="967" end="970" line="32" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="254" end="314" line="9" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="995" end="998" line="34" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="338" end="401" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="999" end="999" line="34" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="347" end="400" line="12" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="967" end="978" line="32" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="429" end="439" line="13" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="591" end="636" line="25" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="330" end="445" line="11" branch="true" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="815" end="827" line="27" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="222" end="245" line="8" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="929" end="936" line="30" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="408" end="439" line="13" branch="false" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="679" end="723" line="26" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="254" end="314" line="9" branch="true" invocation-count="1" ignored="false">
 </statement>
                                 <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="961" end="962" line="30" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="987" end="992" line="33" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="1009" end="1012" line="35" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="863" end="870" line="29" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="352" end="511" line="22" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="558" end="564" line="24" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="775" end="812" line="27" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="1009" end="1012" line="35" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="981" end="992" line="33" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="1013" end="1013" line="35" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="543" end="557" line="24" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="793" end="811" line="27" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="885" end="894" line="29" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="967" end="970" line="32" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="752" end="814" line="27" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="606" end="635" line="25" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="1001" end="1006" line="34" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="921" end="928" line="30" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="971" end="971" line="32" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="685" end="722" line="26" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="981" end="984" line="33" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="352" end="499" line="15" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="951" end="960" line="30" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="853" end="862" line="29" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="995" end="1006" line="34" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="981" end="984" line="33" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="944" end="950" line="30" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="705" end="721" line="26" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="737" end="828" line="27" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="1015" end="1020" line="35" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="878" end="884" line="29" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="664" end="724" line="26" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="321" end="515" line="14" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="912" end="963" line="30" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="985" end="985" line="33" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="769" end="813" line="27" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="995" end="998" line="34" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="973" end="978" line="32" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="531" end="565" line="24" branch="false" invocation-count="0" ignored="false">
-</statement>
-                                <statement 
-                                package="&lt;empty&gt;" class="MobilePurchase" class-type="Object" full-class-name="MobilePurchase" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/MobilePurchase.scala" method="&lt;none&gt;" start="844" end="897" line="29" branch="false" invocation-count="0" ignored="false">
+                                package="com.knoldus" class="PurchaseActor" class-type="Class" full-class-name="com.knoldus.PurchaseActor" source="/home/knoldus/Downloads/AkkaSecondAssignment/src/main/scala/com/knoldus/PurchaseActor.scala" method="receive" start="408" end="426" line="13" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>

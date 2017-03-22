@@ -1,0 +1,592 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com/knoldus/ValidationActor.scala.html
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.knoldus
+</span>2 <span style=''>
+</span>3 <span style=''>import akka.actor.{Actor, ActorLogging, ActorRef, Props}
+</span>4 <span style=''>import akka.pattern.ask
+</span>5 <span style=''>import akka.util.Timeout
+</span>6 <span style=''>
+</span>7 <span style=''>import scala.concurrent.duration.DurationInt
+</span>8 <span style=''>import scala.concurrent.{Await, Future}
+</span>9 <span style=''>
+</span>10 <span style=''>class ValidationActor(PurchaseRequestRef : ActorRef) extends Actor with ActorLogging {
+</span>11 <span style=''>  var number = </span><span style='background: #AEF1AE'>0</span><span style=''>
+</span>12 <span style=''>  override def receive = {
+</span>13 <span style=''>
+</span>14 <span style=''>    case validate:String =&gt;
+</span>15 <span style=''>      implicit val timeout = </span><span style='background: #AEF1AE'>Timeout(1000 seconds)</span><span style=''>
+</span>16 <span style=''>      val totalmobile: Future[Int] = (</span><span style='background: #AEF1AE'>PurchaseRequestRef ? &quot;give me totalMobiles&quot;).mapTo[Int]</span><span style=''>
+</span>17 <span style=''>      //println(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&quot;+totalmobile)
+</span>18 <span style=''>      </span><span style='background: #AEF1AE'>number= Await.result(totalmobile,1.second)</span><span style=''>
+</span>19 <span style=''>      </span><span style='background: #AEF1AE'>log.info(&quot;number of Mobiles=&quot;+number)</span><span style=''>
+</span>20 <span style=''>      if(</span><span style='background: #AEF1AE'>number &gt; 0</span><span style=''>) </span><span style='background: #AEF1AE'>PurchaseRequestRef ! Booking</span><span style=''> else </span><span style='background: #F0ADAD'>log.info(&quot;sorry no mobile available&quot;)</span><span style=''>
+</span>21 <span style=''>
+</span>22 <span style=''>  }
+</span>23 <span style=''>}
+</span>24 <span style=''>object ValidationActor{
+</span>25 <span style=''>  def props(ref:ActorRef) = </span><span style='background: #F0ADAD'>Props(classOf[ValidationActor], ref)</span><span style=''>
+</span>26 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          11
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          316
+          -
+          317
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          0
+        </td>
+      </tr><tr>
+        <td>
+          12
+        </td>
+        <td>
+          46
+        </td>
+        <td>
+          343
+          -
+          343
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.ValidationActor.$anonfun.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new $anonfun()
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          403
+          -
+          424
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.util.Timeout.apply
+        </td>
+        <td style="background: #AEF1AE">
+          akka.util.Timeout.apply(scala.concurrent.duration.`package`.DurationInt(1000).seconds)
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          411
+          -
+          423
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.concurrent.duration.DurationConversions.seconds
+        </td>
+        <td style="background: #AEF1AE">
+          scala.concurrent.duration.`package`.DurationInt(1000).seconds
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          411
+          -
+          415
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          1000
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          482
+          -
+          482
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.self
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          484
+          -
+          506
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;give me totalMobiles&quot;
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          463
+          -
+          481
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.ValidationActor.PurchaseRequestRef
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.PurchaseRequestRef
+        </td>
+      </tr><tr>
+        <td>
+          16
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          463
+          -
+          518
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          scala.concurrent.Future.mapTo
+        </td>
+        <td style="background: #AEF1AE">
+          akka.pattern.`package`.ask(ValidationActor.this.PurchaseRequestRef).?(&quot;give me totalMobiles&quot;)(timeout, ValidationActor.this.self).mapTo[Int]((ClassTag.Int: scala.reflect.ClassTag[Int]))
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          615
+          -
+          623
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          scala.concurrent.duration.DurationConversions.second
+        </td>
+        <td style="background: #AEF1AE">
+          scala.concurrent.duration.`package`.DurationInt(1).second
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          615
+          -
+          616
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          1
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          34
+        </td>
+        <td>
+          582
+          -
+          624
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.knoldus.ValidationActor.number_=
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.number_=(scala.concurrent.Await.result[Int](totalmobile, scala.concurrent.duration.`package`.DurationInt(1).second))
+        </td>
+      </tr><tr>
+        <td>
+          18
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          590
+          -
+          624
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.concurrent.Await.result
+        </td>
+        <td style="background: #AEF1AE">
+          scala.concurrent.Await.result[Int](totalmobile, scala.concurrent.duration.`package`.DurationInt(1).second)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          35
+        </td>
+        <td>
+          640
+          -
+          660
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;number of Mobiles=&quot;
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          38
+        </td>
+        <td>
+          631
+          -
+          668
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.log.info(&quot;number of Mobiles=&quot;.+(ValidationActor.this.number))
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          37
+        </td>
+        <td>
+          640
+          -
+          667
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.String.+
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;number of Mobiles=&quot;.+(ValidationActor.this.number)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          36
+        </td>
+        <td>
+          661
+          -
+          667
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.ValidationActor.number
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.number
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          41
+        </td>
+        <td>
+          709
+          -
+          709
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          akka.actor.Actor.self
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.self
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          44
+        </td>
+        <td>
+          724
+          -
+          761
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #F0ADAD">
+          ValidationActor.this.log.info(&quot;sorry no mobile available&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          40
+        </td>
+        <td>
+          690
+          -
+          708
+        </td>
+        <td>
+          Select
+        </td>
+        <td>
+          com.knoldus.ValidationActor.PurchaseRequestRef
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.PurchaseRequestRef
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          43
+        </td>
+        <td>
+          690
+          -
+          718
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          akka.this.actor.`package`.actorRef2Scala(ValidationActor.this.PurchaseRequestRef).!(Booking)(ValidationActor.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          45
+        </td>
+        <td>
+          724
+          -
+          761
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          akka.event.LoggingAdapter.info
+        </td>
+        <td style="background: #F0ADAD">
+          ValidationActor.this.log.info(&quot;sorry no mobile available&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          39
+        </td>
+        <td>
+          678
+          -
+          688
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int.&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          ValidationActor.this.number.&gt;(0)
+        </td>
+      </tr><tr>
+        <td>
+          20
+        </td>
+        <td>
+          42
+        </td>
+        <td>
+          690
+          -
+          718
+        </td>
+        <td>
+          ApplyToImplicitArgs
+        </td>
+        <td>
+          akka.actor.ScalaActorRef.!
+        </td>
+        <td style="background: #AEF1AE">
+          akka.this.actor.`package`.actorRef2Scala(ValidationActor.this.PurchaseRequestRef).!(Booking)(ValidationActor.this.self)
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          47
+        </td>
+        <td>
+          821
+          -
+          857
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          akka.actor.Props.apply
+        </td>
+        <td style="background: #F0ADAD">
+          akka.actor.Props.apply(classOf[com.knoldus.ValidationActor], ref)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

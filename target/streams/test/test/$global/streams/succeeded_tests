@@ -1,4 +1,5 @@
 #Successful Tests
-#Wed Mar 22 12:27:25 IST 2017
-PurchaseRequestHandlerSpec=1490165845577
-PurchaseActorSpec=1490165845670
+#Wed Mar 22 17:50:53 IST 2017
+PurchaseRequestHandlerSpec=1490185253171
+ValidationActorSpec=1490185253171
+PurchaseActorSpec=1490185253147

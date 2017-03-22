@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0m[32mValidationActorSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcom.knoldus.ValidationActor [0m[0m
+[0m[[0minfo[0m] [0m[32m- must Reply with the same message it receives without ask[0m[0m

@@ -5,7 +5,7 @@
 [0m[[0minfo[0m] [0mWritten Cobertura report [/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/coverage-report/cobertura.xml][0m
 [0m[[0minfo[0m] [0mWritten XML coverage report [/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/scoverage-report/scoverage.xml][0m
 [0m[[0minfo[0m] [0mWritten HTML coverage report [/home/knoldus/Downloads/AkkaSecondAssignment/target/scala-2.11/scoverage-report/index.html][0m
-[0m[[0minfo[0m] [0mStatement coverage.: 22.92%[0m
-[0m[[0minfo[0m] [0mBranch coverage....: 50.00%[0m
+[0m[[0minfo[0m] [0mStatement coverage.: 93.62%[0m
+[0m[[0minfo[0m] [0mBranch coverage....: 75.00%[0m
 [0m[[0minfo[0m] [0mCoverage reports completed[0m
-[0m[[0minfo[0m] [0mAll done. Coverage was [22.92%][0m
+[0m[[0minfo[0m] [0mAll done. Coverage was [93.62%][0m
